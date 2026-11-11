@@ -1,0 +1,20 @@
+# --- Simulation Configuration ------------------------------------------------
+[simulation]
+    name       = "facet2_witness"   # Name of the simulation
+    output_dir = "output/"          # Output directory the data should be stored in
+    seed       = something          # something with RNGs
+
+# --- Plasma Configuration ----------------------------------------------------
+[plasma]
+    density = "1.0e17 cm^-3"
+
+    [plasma.profile]
+        type   = "piecewise_linear"
+        points = 
+
+[wake]
+type               = "analytic_blowout"
+ion_charge_state   = 1
+accelerating_field =
+
+
