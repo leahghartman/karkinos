@@ -1,6 +1,9 @@
 [package]
 name = "karkinos-medium"
-version = "0.1.0"
-edition = "2024"
+description = "something"
+
+# Inherit everything else from the root workspace
+version = { workspace = true }
+edition = { workspace = true }
 
 [dependencies]

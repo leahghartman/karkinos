@@ -1,0 +1,25 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version      = "0.1.0"
+edition      = "2024"
+rust-version = "1.85" 
+license      = "MIT"
+authors      = ["Leah Hartman", "Yasmina Elmore", "Janice Zou", "Zahraa Noureddine"] 
+repository   = "https://github.com/leahghartman/karkinos"
+
+
+[workspace.dependencies]
+rayon = "1"
+toml  = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+
+# Internal crates
+
+[workspace.lints.rust]
+
+[workspace.lints.clippy]
+
+

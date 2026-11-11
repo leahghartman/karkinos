@@ -1,0 +1,9 @@
+[package]
+name = "karkinos"
+description = "something"
+
+# Inherit everything else from the root workspace
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
