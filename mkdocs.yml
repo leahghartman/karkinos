@@ -1,0 +1,11 @@
+# Start off documentation
+
+site_name: Karkinos
+site_url: https://leahghartman.github.io/karkinos
+repo_url: https://github.com/leahghartman/karkinos
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material

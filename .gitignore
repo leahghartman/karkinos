@@ -12,6 +12,9 @@
 .idea/
 *.swp
 .DS_Store
+# Additions for MkDocs
+site/
+.venv/
 
 # Simulation output
 *.h5
